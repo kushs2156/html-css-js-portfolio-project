@@ -1,0 +1,29 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 100,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "username": "root",
+            "database": "employees",
+            "password": "Phys_3010",
+            "connectionTimeout": 60
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgres Local",
+            "database": "dvdrental",
+            "username": "postgres",
+            "password": "Phys_3010"
+        }
+    ]
+}
